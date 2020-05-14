@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>KonQFuColorBlindTest</title>
+     
+      <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href=" {{url_for('static', filename='style.css')}} ">
+      
+      </head>
+<body>
+
+   <div class="menubar">
+      <div class="container">
+          <div class="logo">
+              <h1>KonQFu</h1>
+          </div>
+          <ul class="menu">
+              <li>
+                  <a href="/">Home</a>
+              </li>
+              <li>
+                  <a href="/testcb">Test</a>
+              </li>
+              <li>
+                  <a href="/contact">Contact</a>
+              </li>
+          </ul>
+      </div>
+  </div>
+
+    <div class="container">
+        <div style="background-color:grey" >
+         <p style="font-size:75px; color:white;" align="center">Color Blind Test</p>
+        </div>
+        <h1 style="color:red;" align="center">{{ alert }}</h1>
+        <form method='post' action='/testcb'>
+          <img class="img-test" style="display: block; margin-left: auto; margin-right: auto;" src="http://www.mmtc.ac.th/Admission/blindtest/plate03.gif" />
+          <div class="col-sm-3" style="text-align: center;"><br>
+             <label for="Number one">Enter number (if it can't read enter 0)</label> 
+             <input name="num1" type="number" value="{{num1}}" />
+          </div>
+          <br /> <br /> <hr width="30%" ><p> <br />
+
+          <img class="img-test"  style="display: block; margin-left: auto; margin-right: auto;" src="http://www.mmtc.ac.th/Admission/blindtest/plate05.gif" />
+          <div class="col-sm-3" style="text-align: center;">
+             <label for="Number two">Enter number (if it can't read enter 0)</label> 
+             <input name="num2" type="number" value="{{num2}}" />
+          </div>
+          <br /> <br /><hr width="30%" > <br />
+
+          <img class="img-test"  style="display: block; margin-left: auto; margin-right: auto;" src="http://www.mmtc.ac.th/Admission/blindtest/plate07.gif" />
+          <div class="col-sm-3" style="text-align: center;"><br>
+             <label for="Number three">Enter number (if it can't read enter 0)</label> 
+             <input name="num3" type="number" value="{{num3}}" />
+          </div>
+          <br /> <br /><hr width="30%" > <br />
+
+          <img class="img-test"  style="display: block; margin-left: auto; margin-right: auto;" src="http://www.mmtc.ac.th/Admission/blindtest/plate09.gif" />
+          <div class="col-sm-3" style="text-align: center;"><br>
+             <label for="Number four">Enter number (if it can't read enter 0)</label> 
+             <input name="num4" type="number" value="{{num4}}" />
+          </div>
+          <br /> <br /><hr width="30%" > <br />
+
+          <img class="img-test"  style="display: block; margin-left: auto; margin-right: auto;" src="http://www.mmtc.ac.th/Admission/blindtest/plate11.gif" />
+          <div class="col-sm-3" style="text-align: center;"><br>
+             <label for="Number five">Enter number (if it can't read enter 0)</label> 
+             <input name="num5" type="number" value="{{num5}}" />
+          </div>
+          <br /> <br /><hr width="30%" > <br />
+
+          <img class="img-test"  style="display: block; margin-left: auto; margin-right: auto;" src="http://www.mmtc.ac.th/Admission/blindtest/plate13.gif" />
+          <div class="col-sm-3" style="text-align: center;"><br>
+             <label for="Number six">Enter number (if it can't read enter 0)</label> 
+             <input name="num6" type="number" value="{{num6}}" />
+          </div><br/>
+
+          <div class="contact_area">
+          <div class='col-sm-3' style="text-align: center;"><br>
+            <button type='submit' class='contact_area'>SUMMIT</button></div>
+          </div><br/><br/><br/><br/></div>
+
+
+
+        </form>
+    </div>
+
+    <footer>
+      <p> © 2020 KONQFU® Color Blind Test. All rights reserved. | Privacy Policy | Terms of Use </p>
+  </footer>
+
+</body>
+</html>

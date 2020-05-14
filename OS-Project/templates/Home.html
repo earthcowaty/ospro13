@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KonQFuColorBlindTest</title>
+   
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href=" {{url_for('static', filename='style.css')}} ">
+    
+    </head>
+    <body>
+
+    <div class="menubar">
+        <div class="container">
+            <div class="logo">
+                <h1>KonQFu</h1>
+            </div>
+            <ul class="menu">
+                <li>
+                    <a href="/">Home</a>
+                </li>
+                <li>
+                    <a href="/testcb">Test</a>
+                </li>
+                <li>
+                    <a href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+
+    <div class="clearfix">
+
+    <header class="header" style="background-image: url('/static/office.png')">
+    <div class="container" >
+        <div class="header_area">
+            <h1>Welcome to the KonQFu ColorBlindTest</h1>
+            <p>If you have color blindness, our test can tell you if your color vision deficiency is mild, moderate, or strong — in less than two minutes.
+            </p>
+    </div>
+    </div>
+</div>
+</header>
+
+<section class="info1">
+    <div class="container" >
+        <div class="info1_area">
+            <img src="/static/ColorBlind.png"> 
+            <div class="info1_text">
+                <h1>ABOUT THE KONQFU COLOR BLIND TEST</h1>
+                <p>The KonQFu Color Blind Test is a proprietary color blind test designed to determine a person’s type and level of color blindness. </p>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="info2">
+    <div class="container">
+        <div class="info2_area">
+            <div class="info2_text">
+                <h1>BEFORE TAKING THE TEST</h1>
+                <p> The EnChroma Test, like all Color Blind plate tests, are not performance evaluation tools and are NOT designed to be taken with glasses with colored lenses of any kind. As a result, please be sure to do the following BEFORE taking the test:
+
+                    Remove all glasses with colored lenses. The test is designed to be taken with the naked eye or with a prescription if you wear one. It will not work with colored lenses of any type and will lead to inaccurate results. Taking the online test with color correcting glasses to “prove” that they work is a misconception and inaccurate.
+                    Turn brightness on screen to high. Light affects color and the ability to perceive differentiation.</p>
+            </div>
+            <img src="/static/ColorBlind2.jpg" alt="">
+        </div>
+    </div>
+</section>
+
+<div class="clearfix">
+
+
+<section class="info3">
+    <div class="container">
+        <div class="contact_area" id="contact">
+                <h1>Contact Us</h1>
+                <form>
+                    <label> Your Name </label><br>
+                    <input type="text" placeholder="Your Name"><br>
+
+                    <label> Your Email </label><br>
+                    <input type="text" placeholder="Your Email"><br>
+
+                    <label> Your Subject </label><br>
+                    <input type="text" placeholder="Your Subject"><br>
+
+                    <label> Your Message </label><br>
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>                </form><br>
+                    <button>SEND</button><br>
+        </div>
+    </div>
+</div>
+</section>
+
+
+<footer>
+    <p> © 2020 KONQFU® Color Blind Test. All rights reserved. | Privacy Policy | Terms of Use </p>
+</footer>
+    
+</body>
+</html>

@@ -1,0 +1,204 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.container{
+    width: 960px;
+    margin: 0 auto;
+}
+
+.menubar {
+    width: 100%;
+    height: 50px;
+    background: #fff;
+    box-shadow: 0 0 10px #666; 
+}
+
+.menubar .logo {
+    float: left;
+}
+
+.menubar h1 {
+    margin: 0;
+    font-size: 24px;
+    font-weight: normal;
+    padding: 10px;
+}
+.menubar ul.menu {
+    list-style: none;
+    float: right;
+}
+.menubar ul.menu li {
+    float: left;
+    margin-right: 20px;
+}
+.menubar ul.menu li a {
+    text-decoration: none;
+    color: #333;
+    border-bottom: 2px solid transparent;
+    padding-bottom: 20px;
+    transition: all 0.3s ease;
+}
+.menubar ul.menu li a:hover {
+    border-bottom: 2px solid #333;
+    padding-bottom: 0;
+}
+
+.header {
+    width: 100%;
+    background: url('../static/office.png') no-repeat;
+    height: 450px;
+    background-size: cover;
+    background-position: center center;
+}
+
+
+.header_area{
+    padding-top: 90px;
+    width: 660px;
+    text-align: center;
+    color: white;
+    margin: 0 auto;
+}
+
+.header_area h1 {
+    margin: 0;
+    font-size: 60px;
+    font-weight: normal;
+
+}
+
+.header_area p {
+    width: 480px;
+    font-size: 16px;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+.info1 {
+    width: 100%;
+    height: 450px;
+    background-color: white;
+}
+
+.info1_area {
+    color: #333333;
+
+}
+
+.info1_area img {
+    float: left;
+    margin-top: 100px;
+    width: 500px;
+    height: 200px;
+}
+
+.info1_text{
+    text-align: center;
+    float: left;
+    width: 460px;
+    margin-top: -150px;
+    margin-left: 570px;
+    color: #333333;
+}
+
+.info1_area h1 {
+    margin: 0;
+    font-weight: normal;
+
+}
+
+.info2 {
+    width: 100%;
+    height: 450px;
+    background-color: burlywood;
+}
+
+.info2_area {
+    color: #333333;
+
+}
+
+.info2_area img {
+    float: right;
+    margin-top: 75px;
+    margin-right: -10px;
+    width: 300px;
+    height: 300px;
+}
+
+.info2_text{
+    text-align: center;
+    float: left;
+    width: 460px;
+    margin-top: 100px;
+    margin-left: -50px;
+    color: white;
+}
+
+.info2_area h1 {
+    margin: 0;
+    font-weight: normal;
+
+}
+
+.contact {
+    width: 100%;
+    height: 515px;
+}
+
+.contact_area h1 {
+    font-weight: normal;
+
+}
+
+.contact_area input {
+    margin: 10px 0;
+    border: none;
+    border: 2px solid #333333;
+    width: 350px;
+    padding: 10px;
+}
+
+.contact_area textarea {
+    margin: 10px 0;
+    border: none;
+    border: 2px solid #333333;
+    width: 350px;
+    padding: 10px;
+}
+
+.contact_area button {
+    padding: 10px;
+    width: 90px;
+    background-color: #333333;
+    color: white;
+    border: 2px solid transparent;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.contact_area button:hover {
+    background-color: white;
+    color: #333333;
+    border: 2px solid #333333;
+}
+
+footer {
+    background: #333333;
+    margin-top: 60px;
+    padding: 20px;
+    text-align: center;
+    color: white;
+
+}
+
+footer p {
+    margin: 0;
+}
